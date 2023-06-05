@@ -26,6 +26,11 @@ var result_text = document.getElementById("result").innerHTML;
 document.getElementById("player1").innerHTML = "<b><i>Player 1 Name: </i></b>" + player_1
 document.getElementById("player2").innerHTML = "<b><i>Player 2 Name: </i></b>" + player_2
 
+//Playing Audio
+const audio = document.getElementById('piano_audio')
+audio.play()
+audio.volume = 0.2
+
 //Defining Speech Synthesis
 let utterance = new SpeechSynthesisUtterance("Hello! The Tic Tac Toe Game is about to begin!")
 speechSynthesis.speak(utterance)
