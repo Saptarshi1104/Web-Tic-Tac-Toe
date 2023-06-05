@@ -1,0 +1,22 @@
+#card_img{
+    height: 15rem;
+    width: 100%;
+}
+#form-1, #form-2{
+    display: flex;
+}
+#login-button{
+    margin-bottom: 50px;
+}
+body{
+    background-color: rgb(69,66,66);
+    color: aqua;
+}
+::-moz-selection{
+    background-color: green;
+    color: palevioletred;
+}
+::selection{
+    background-color: green;
+    color: palevioletred;
+}

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Tic Tac Toe: Match</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="ttt_img.png" rel="shortcut icon">
+    <link href="game.css" rel="stylesheet">
+  </head>
+  <body background="img.webp">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tic Tac Toe</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="game.html">Match Window</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+          </div>
+          <button style="float: right" class="btn btn-outline-danger" onclick="logout()">Logout</button>
+          <button style="float: right" class="btn btn-outline-dark" onclick="reset()" id="restart_btn">Reset</button>
+          <button style="float: right" class="btn btn-outline-primary" onclick="alert_func(); window.print();">Print Position</button>
+        </div>
+      </nav>
+        <button class="btn btn-outline-warning btn-lg" id="btn1" onclick="func_1()">1</button>
+        <button class="btn btn-outline-warning btn-lg" id="btn2" onclick="func_2()">2</button>
+        <button class="btn btn-outline-warning btn-lg" id="btn3" onclick="func_3()">3</button>
+        <br>
+        <button class="btn btn-outline-warning btn-lg" id="btn4" onclick="func_4()">4</button>
+        <button class="btn btn-outline-warning btn-lg" id="btn5" onclick="func_5()">5</button>
+        <button class="btn btn-outline-warning btn-lg" id="btn6" onclick="func_6()">6</button>
+        <br>
+        <button class="btn btn-outline-warning btn-lg" id="btn7" onclick="func_7()">7</button>
+        <button class="btn btn-outline-warning btn-lg" id="btn8" onclick="func_8()">8</button>
+        <button class="btn btn-outline-warning btn-lg" id="btn9" onclick="func_9()">9</button>
+        <br><br><br>
+        <center>
+          <h5>Tic Tac Toe Table</h5>
+        </center>
+        <hr><hr>
+        <div class="container">
+        <div data-bs-autohide="false" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <img src="ttt_img.png" style="height: fit-content; width: 10%;" class="rounded me-2" alt="...">
+            <strong class="me-auto">Tic Tac Toe</strong>
+            <small>Just Now!</small>
+          </div>
+          <div class="toast-body">
+            <label id="result"><b><i>Match Result:</i></b> Game in Progress</label>
+            <br>
+            <label id="player1"><b><i>Player 1 Name: </i></b></label>
+            <br>
+            <label id="player2"><b><i>Player 2 Name: </i></b></label>
+            <br>
+            <label id="turn"><b><i>Turn of: </i></b>X</label>
+          </div>
+        </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="game.js"></script>
+  </body>
+</html>

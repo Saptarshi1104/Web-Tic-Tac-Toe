@@ -1,0 +1,47 @@
+body{ 
+    background: url(img.webp) no-repeat 550px 50px fixed;
+    background-color: rgb(69, 66, 66);
+}
+#btn1{
+    margin-left: 600px;
+    margin-top: 30px;
+}
+#btn2{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#btn3{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#btn4{
+    margin-left: 600px;
+    margin-top: 60px;
+}
+#btn5{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+#btn6{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+#btn7{
+    margin-left: 600px;
+    margin-top: 60px;
+}
+#btn8{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+#btn9{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+h5{
+    color: yellow;
+    padding-right: 90px;
+}
+hr{
+    color: darksalmon;
+}
